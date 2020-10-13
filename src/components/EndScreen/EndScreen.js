@@ -8,7 +8,9 @@ const EndScreen = ({ word, image, roundInputs, handleReset, players }) => {
         <div className="container-endscreen">
           <div className="shadow">
             <div className="container-card-grid-endscreen card-grid-endscreen-original">
-              <p className="card-word card-lower-elements endscreen-card-text">Original</p>
+              <p className="card-word card-lower-elements endscreen-card-text">
+                Original
+              </p>
               <img
                 className="img-card img-card-round-background img-card-endscreen"
                 alt={word}
@@ -21,23 +23,29 @@ const EndScreen = ({ word, image, roundInputs, handleReset, players }) => {
           </div>
           <div className="shadow">
             <div className="container-card-grid-endscreen card-grid-endscreen-sketch1">
-              <p className="card-word card-lower-elements endscreen-card-text">{players[0]}</p>
+              <p className="card-word card-lower-elements endscreen-card-text">
+                {players[0]}
+              </p>
               <img
                 className="img-card img-card-round-background img-card-endscreen"
                 alt="player-1-drawing"
                 src={roundInputs[0]}
               />
               <div className="card-lower">
-                  <p className="card-word card-lower-elements endscreen-card-text">
+                <p className="card-word card-lower-elements endscreen-card-text">
                   <span>{players[1]} </span>
-                  <span span className="word">{roundInputs[1]}</span>
+                  <span span className="word">
+                    {roundInputs[1]}
+                  </span>
                 </p>
               </div>
             </div>
           </div>
           <div className="shadow">
             <div className="container-card-grid-endscreen card-grid-endscreen-sketch2">
-              <p className="card-word card-lower-elements endscreen-card-text">{players[2]}</p>
+              <p className="card-word card-lower-elements endscreen-card-text">
+                {players[2]}
+              </p>
               <img
                 className="img-card img-card-round-background img-card-endscreen"
                 alt="player-2-drawing"
@@ -54,7 +62,7 @@ const EndScreen = ({ word, image, roundInputs, handleReset, players }) => {
 
           <Button
             label="New Game"
-            buttonClass="button button-newgame"
+            buttonClass="pulse button button-newgame"
             handleClick={handleReset}
           />
         </div>

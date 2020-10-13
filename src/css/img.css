@@ -1,10 +1,6 @@
 .img-card {
   height: 100%;
   width: 100%;
-<<<<<<< HEAD
-  object-fit: cover;
-=======
->>>>>>> 57492438463ecc179b3c480705a652a52f8db358
   justify-self: center;
   object-fit: contain;
   border-radius: 1.85rem 1.85rem 0rem 0rem;

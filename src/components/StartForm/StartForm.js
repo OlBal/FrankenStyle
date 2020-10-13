@@ -96,13 +96,13 @@ class StartForm extends Component {
                   />
                 </div>
                 <Button
-                  buttonClass=" buttons-startgame button-startform"
+                  buttonClass=" pulse buttons-startgame button-startform"
                   label="Start"
                 />
               </form>
 
               <Button
-                buttonClass="buttons-startgame rules"
+                buttonClass="pulse buttons-startgame rules"
                 handleClick={this.handleClick}
                 label="Rules"
               />

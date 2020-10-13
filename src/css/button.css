@@ -29,6 +29,24 @@
   transition: 0.3s ease-in-out;
 }
 
+.pulse:hover,
+.pulse:focus {
+  -webkit-animation: pulse 0.9s;
+  animation: pulse 0.9s;
+  box-shadow: 0 0 0 1em rgba(255, 255, 255, 0);
+}
+@-webkit-keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--secondary-colour);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--secondary-colour);
+  }
+}
+
 .button:hover {
   background-color: var(--secondary-colour);
 }
@@ -61,6 +79,10 @@
 }
 
 .buttons-colour-pick {
+<<<<<<< HEAD
+=======
+  align-self: stretch;
+>>>>>>> b77f048635f0448816d77477fbf41c658a065685
   align-self: stretch;
   justify-self: center;
 }

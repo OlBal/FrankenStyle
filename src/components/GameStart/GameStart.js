@@ -32,7 +32,7 @@ class GameStart extends Component {
             <p className="card-word card-lower-elements">{word}</p>
             <Button
               label="Ready"
-              buttonClass="button gamestart-button card-lower-elements"
+              buttonClass="pulse button gamestart-button card-lower-elements"
               handleClick={this.handleSubmit}
             />
           </div>

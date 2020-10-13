@@ -86,21 +86,21 @@ const SketchPad = ({ word, round, roundInputs, handleSave, players }) => {
   };
 
   return (
-
     <div className="container-global">
       <div className="container-sketchpad">
-      <div className="container-header">
-       {round === 1 ? 
-        <>
-          <h2>{word}</h2>
-          <p className="player-word">{players[0]}</p> 
-        </> :
-        <>
-          <h2>{roundInputs[1]}</h2>
-          <p className="player-word">{players[2]}</p> 
-        </>
-        }
-       </div> 
+        <div className="container-header">
+          {round === 1 ? (
+            <>
+              <h2>{word}</h2>
+              <p className="player-word">{players[0]}</p>
+            </>
+          ) : (
+            <>
+              <h2>{roundInputs[1]}</h2>
+              <p className="player-word">{players[2]}</p>
+            </>
+          )}
+        </div>
         <div className="container-grid-sketchpad">
           <canvas
             className="border border-primary"
@@ -117,16 +117,34 @@ const SketchPad = ({ word, round, roundInputs, handleSave, players }) => {
               className="buttons-colour-pick"
               color={color}
               onChangeComplete={handleColor}
-              colors={ ["#f44336", "#e91e63", "#9c27b0", "#673ab7", "#3f51b5", "#2196f3", "#03a9f4", "#00bcd4", "#009688", "#4caf50", "#8bc34a", "#cddc39", "#ffeb3b", "#ffc107", "#ff9800", "#ff5722", "#ffffff", "#000000"]}
+              colors={[
+                "#f44336",
+                "#e91e63",
+                "#9c27b0",
+                "#673ab7",
+                "#3f51b5",
+                "#2196f3",
+                "#03a9f4",
+                "#00bcd4",
+                "#009688",
+                "#4caf50",
+                "#8bc34a",
+                "#cddc39",
+                "#ffeb3b",
+                "#ffc107",
+                "#ff9800",
+                "#ff5722",
+                "#ffffff",
+                "#000000",
+              ]}
               circleSize={60}
             />
             <Button
-              buttonClass="button button-sketchpad"
+              buttonClass="pulse button button-sketchpad"
               handleClick={(e) => handleSubmit(e)}
               label="Submit"
             />
           </div>
-
         </div>
       </div>
     </div>

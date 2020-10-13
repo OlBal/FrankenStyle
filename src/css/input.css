@@ -4,7 +4,7 @@ label {
 }
 
 label {
-  font-family: var(--font-title);
+  font-family: var(--font-main);
   color: var(--highlights);
   padding-bottom: 0.3rem;
   font-size: 1.2rem;

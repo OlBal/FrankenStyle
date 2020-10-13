@@ -15,7 +15,7 @@ p span {
 }
 
 .card-word {
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin: 0;
 }
 
@@ -43,38 +43,9 @@ h2 {
 }
 
 .endscreen-card-text {
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-align: center;
 }
-
-
-
-/*.title {
-  font-size: 4rem;
-  color: white;
-  /* background-size: 120% 100%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
-  -ms-background-clip: text;
-  -ms-text-fill-color: transparent;
-  background-clip: text; */
-   /* text-fill-color: transparent; */
-  /* background-image: linear-gradient(45deg,
-   #f0f0ed,  #f0f0ed); */
-  /* animation: 0.8s shake infinite alternate; */
-/* } */
-
-/* @keyframes shake {
-  0% { transform: skewX(-15deg); }
-  5% { transform: skewX(15deg); }
-  10% { transform: skewX(-15deg); }
-  15% { transform: skewX(15deg); }
-  20% { transform: skewX(0deg); }
-  100% { transform: skewX(0deg); }  
-} */
-
 
 h1.start-title {
   margin: 0.5rem 0rem 0.5rem 0rem;
