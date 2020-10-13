@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/FrankenType/static/css/main.379ee9d8.chunk.css",
+    "main.js": "/FrankenType/static/js/main.df83af6d.chunk.js",
+    "main.js.map": "/FrankenType/static/js/main.df83af6d.chunk.js.map",
+    "runtime-main.js": "/FrankenType/static/js/runtime-main.f4b0f5b8.js",
+    "runtime-main.js.map": "/FrankenType/static/js/runtime-main.f4b0f5b8.js.map",
+    "static/js/2.748e6ee4.chunk.js": "/FrankenType/static/js/2.748e6ee4.chunk.js",
+    "static/js/2.748e6ee4.chunk.js.map": "/FrankenType/static/js/2.748e6ee4.chunk.js.map",
+    "index.html": "/FrankenType/index.html",
+    "precache-manifest.c8c30880219484229e0bb47890af470b.js": "/FrankenType/precache-manifest.c8c30880219484229e0bb47890af470b.js",
+    "service-worker.js": "/FrankenType/service-worker.js",
+    "static/css/main.379ee9d8.chunk.css.map": "/FrankenType/static/css/main.379ee9d8.chunk.css.map",
+    "static/js/2.748e6ee4.chunk.js.LICENSE.txt": "/FrankenType/static/js/2.748e6ee4.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/FrankenType/static/media/Frankentype.5ff2604a.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f4b0f5b8.js",
+    "static/js/2.748e6ee4.chunk.js",
+    "static/css/main.379ee9d8.chunk.css",
+    "static/js/main.df83af6d.chunk.js"
+  ]
+}
