@@ -149,11 +149,7 @@
 }
 
 .container-sketchpad-buttons {
-<<<<<<< HEAD
-  display: flex;  
-=======
   display: flex;
->>>>>>> 57492438463ecc179b3c480705a652a52f8db358
 }
 
 /* End Screen */
@@ -199,7 +195,6 @@
 .shadow {
   box-shadow: 1rem 1rem 1rem #150030;
 }
-
 
 /* media queries */
 
