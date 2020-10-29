@@ -12,10 +12,10 @@ The second player guesses what the image is supposed to be. The process is repea
 
 credits:
 
-Front-end (React):github.com/deanssmart
-Back-end (Laravel): github.com/mmkobylin
+Front-end (React):github.com/deanssmart\
+Back-end (Laravel): github.com/mmkobylin\
 
-View the app online:
+View the app online:\
 
 http://olbal.github.io/FrankenStyle
 
