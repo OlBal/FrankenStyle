@@ -12,7 +12,7 @@ The second player guesses what the image is supposed to be. The process is repea
 
 ##credits:
 
-### Front-end (React):[Dead Smart](github.com/deanssmart)/
+### Front-end (React):[Dead Smart](github.com/deanssmart)
 ### Back-end (Laravel):[Marta Kobylinska](github.com/mmkobylin)
 
 View the app online:
